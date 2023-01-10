@@ -7,7 +7,7 @@ onnxruntime
 # Usage
 1. download model weights from https://pjreddie.com/media/files/yolov3-tiny.weights.
 2. put yolo_to_onnx.py, weights, cfg in the same directory.
-3. run $python yolo_to_onnx.py --model=yolov3-tiny-416
+3. run $python yolo_to_onnx.py --model=yolov3-tiny-416 to generate yolov3-tiny-416.onnx
 4. if you want to test it, run $python img_predict.py    
 
 ![image](https://user-images.githubusercontent.com/107376080/211469353-af4cbe8b-9311-4d04-8f27-3810092d8465.png)
