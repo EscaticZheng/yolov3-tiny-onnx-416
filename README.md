@@ -1,6 +1,9 @@
 # yolov3-tiny-onnx-416
 convert darknet to onnx with fixed pads.
 It means conv and maxpool with no auto_pads but fixed pads for model deploy.
+# environment
+onnx >= 1.9.0 (opset_version >=11, default is 12)
+onnxruntime
 # Usage
 1. download model weights from https://pjreddie.com/media/files/yolov3-tiny.weights.
 2. put yolo_to_onnx.py, weights, cfg in the same directory.
